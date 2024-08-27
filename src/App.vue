@@ -39,6 +39,21 @@ export default {
   }
 }
 
+@media (max-width: 425px) {
+
+  #app {
+    padding: 0;
+  }
+
+  #header {
+    display: none;
+  }
+
+  #filter-sidebar {
+    display: none;
+  }
+}
+
 @media (max-width: 375px) {
 
   #app {

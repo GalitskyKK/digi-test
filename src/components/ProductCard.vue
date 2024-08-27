@@ -186,6 +186,30 @@ export default {
   }
 }
 
+@media (max-width: 1024px) {
+     .product-card {
+    width: 160px;
+  }
+
+  .image-wrapper {
+    img {
+      width: 160px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+     .product-card {
+    width: 160px;
+  }
+
+  .image-wrapper {
+    img {
+      width: 160px;
+    }
+  }
+}
+
 @media (max-width: 375px) {
      .product-card {
     width: 160px;

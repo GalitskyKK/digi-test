@@ -142,6 +142,20 @@ export default {
   }
 }
 
+@media (max-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .product-list {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+}
+
 @media (max-width: 375px) {
   .product-list {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));

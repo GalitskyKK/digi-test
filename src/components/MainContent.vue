@@ -48,6 +48,20 @@ export default {
     color: $--color-font-main;
   }
 
+    @media (max-width: 425px) {
+    .main-content {
+      padding: 16px;
+    }
+
+    .search-bar {
+      display: flex;
+    }
+
+    .category-title {
+      display: block;
+    }
+  }
+
   @media (max-width: 375px) {
     .main-content {
       padding: 16px;
@@ -60,6 +74,12 @@ export default {
     .category-title {
       display: block;
     }
+  }
+}
+
+@media (max-width: 425px) {
+  .main-content {
+    padding: 16px;
   }
 }
 
