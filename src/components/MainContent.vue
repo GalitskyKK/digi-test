@@ -1,7 +1,7 @@
 <template>
   <div class="main-content">
-    <SearchBar v-show="isMobile" />
-    <div v-show="isMobile" class="category-title">Название категории</div>
+    <SearchBar />
+    <div class="category-title">Название категории</div>
     <ProductList />
   </div>
 </template>
@@ -15,11 +15,6 @@ export default {
   components: {
     ProductList,
     SearchBar,
-  },
-  computed: {
-    isMobile() {
-      return window.innerWidth <= 375;
-    },
   },
 };
 </script>
@@ -48,7 +43,7 @@ export default {
     color: $--color-font-main;
   }
 
-    @media (max-width: 425px) {
+  @media (max-width: 425px) {
     .main-content {
       padding: 16px;
     }
